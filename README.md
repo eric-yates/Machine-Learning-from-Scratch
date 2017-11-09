@@ -1,5 +1,5 @@
 # ml-models
-A collection of various machine learning models.
+A collection of various object-oriented machine learning models built from scratch in Python.
 
 Author: Eric Yates
 
