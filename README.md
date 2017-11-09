@@ -3,7 +3,7 @@ A collection of various object-oriented machine learning models built from scrat
 
 Author: Eric Yates
 
-The "ml_models.py" contains templates for various machine learning models.
+The "ml_models.py" module contains templates for various machine learning models.
 All models are built from scratch using the Numpy library. Matplotlib.pyplot
 is used to visualize data and results. The models have not been optimized 
 and are meant for educational purposes rather than maximum performance.
@@ -20,7 +20,7 @@ object-oriented and added in-depth documentation. In the NeuralNetwork
 class, I added functionality to choose the number of hidden layers,
 whereas LazyProgrammer showed an example with one fixed hidden layer.
 
-To use this module, save this file in the same directory as the project
+To use this module, save the "ml_models.py" file in the same directory as the project
 file you are working with. Then, add the following line:
 
     from ml_models import LinearRegression, LogisticRegression,...
