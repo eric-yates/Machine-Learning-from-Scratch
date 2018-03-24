@@ -1,24 +1,41 @@
 # ml-models
+
 A collection of various object-oriented machine learning models built from scratch in Python.
 
-Author: Eric Yates
+These models have not been optimized and are meant for educational purposes rather than maximum performance.
 
-The "ml_models.py" module contains templates for various machine learning models.
-All models are built from scratch using the Numpy library. Matplotlib.pyplot
-is used to visualize data and results. The models have not been optimized 
-and are meant for educational purposes rather than maximum performance.
+## Getting Started
 
-I originally started learning about these models from courses on Udemy
-by the instructor 'LazyProgrammer.' He explained the theory and
-mathematics behind the models first, then showed the implementation in
-code. The courses are an excellent introduction to understand the
-fundamental principles and mathematics behind machine learning.
+These instructions will get a copy of the project up and running on your local machine.
 
-In all cases, the models here have been expanded upon from the example
-code LazyProgrammer provided. For example, I made all models
-object-oriented and added in-depth documentation. In the NeuralNetwork
-class, I added functionality to choose the number of hidden layers,
-whereas LazyProgrammer showed an example with one fixed hidden layer.
+### Prerequisites
+
+Instructions for installing these software are listed in the next section: Installing. These are the software packages needed to run:
+
+* Python **2.7**
+
+These Python packages are also needed:
+
+* numpy
+* pandas
+* matplotlib
+
+
+### Installing
+
+If your computer does not already have Python **2.7** installed, download it [here](https://www.python.org/downloads/).
+
+By default, Python should come with pip (a package manager). Use it to install the following dependencies by opening the Terminal/command line and entering the commands as follows, each line as a separate command (make sure to capitalize Tkinter):
+
+```
+pip install numpy
+pip install pandas
+pip install matplotlib
+```
+
+## Usage
+
+### Basic
 
 To use this module, save the "ml_models.py" file in the same directory as the project
 file you are working with. Then, add the following line:
@@ -35,3 +52,23 @@ supported models are:
 For all models, it is assumed that the model receives well-prepared and
 cleaned input data X and targets T. Any feature engineering should be
 done prior to creating a model.
+
+## Built With
+
+* [Python](https://www.python.org/about/) - A programming language used here to create exploratory data graphs
+* [Numpy](http://www.numpy.org/) - Python library for mathematical and matrix operations 
+* [Pandas](https://pandas.pydata.org/pandas-docs/stable/) - Python library for data manipulation
+* [Matplotlib](https://matplotlib.org/) - Python library for graphing data
+
+
+## Authors
+
+* **Eric Yates** - [Github Profile](https://github.com/eric-yates)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](/LICENSE.md) file for details.
+
+## Acknowledgments
+
+* **LazyProgrammer**: For his [courses](https://www.udemy.com/user/lazy-programmer/) on machine learning
