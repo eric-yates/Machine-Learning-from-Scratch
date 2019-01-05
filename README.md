@@ -19,6 +19,7 @@ These Python packages are also needed:
 * numpy
 * pandas
 * matplotlib
+* scikit-learn
 
 
 ### Installing
@@ -28,9 +29,7 @@ If your computer does not already have Python **2.7** installed, download it [he
 By default, Python should come with pip (a package manager). Use it to install the following dependencies by opening the Terminal/command line and entering the commands as follows, each line as a separate command (make sure to capitalize Tkinter):
 
 ```
-pip install numpy
-pip install pandas
-pip install matplotlib
+pip install numpy pandas matplotlib scikit-learn
 ```
 
 ## Usage
